@@ -1,0 +1,346 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+.header__menu {
+  padding: 10px;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.conteiner__menu-link {
+  display: flex;
+  justify-content: space-between;
+  width: 540px;
+}
+.menu__link {
+  font-family: Jost;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+}
+.menu__link--color {
+  color: #cda274;
+}
+.section {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section__title {
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 96px;
+  letter-spacing: 0.22px;
+  font-family: "DM Serif Display";
+  color: #292f36;
+  margin-bottom: 30px;
+}
+.section-item {
+  width: 600px;
+}
+.section__text {
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  letter-spacing: 0.22px;
+  margin-bottom: 30px;
+}
+.content {
+  margin: auto;
+  background-size: cover;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 831px;
+  background-image: url(./image/bag-img.png);
+  background-position: center;
+}
+.section__button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 34px;
+  background-color: #292f36;
+  border-radius: 18px;
+  text-decoration: none;
+  color: white;
+  font-family: Jost;
+}
+.section__button:hover {
+  animation-name: section-button;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+}
+.fhooter__title {
+  font-family: "DM Serif Display";
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 39px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #292f36;
+  margin-bottom: 17px;
+}
+.fhooter__text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin-bottom: 50px;
+}
+.fhooter__text--margin {
+  margin-bottom: 30px;
+}
+.fhooter__link {
+  text-decoration: none;
+  font-family: "Jost";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  letter-spacing: 0.36px;
+  color: #4d5053;
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  margin: auto;
+}
+.fhooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 209px;
+}
+.fhooter__item {
+  max-width: 320px;
+  text-align: center;
+}
+.section--margin {
+  margin-top: 140px;
+}
+.section__title--fz {
+  font-size: 50px;
+  line-height: 65px;
+}
+.section-item--wz {
+  width: 451px;
+}
+.section__image {
+  display: block;
+}
+.section__icon {
+  width: 24px;
+  height: 24px;
+  fill: #cda274;
+  display: block;
+  margin-left: 10px;
+}
+.section__conteiner-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 326px 0 123px;
+}
+.section__conteiner-image:hover .section__image-animation {
+  animation-name: animation-image;
+  animation-duration: 2s;
+  opacity: 0.7;
+  background-color: orange;
+  margin-top: -635px;
+}
+.section__image-animation {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition-duration: 2s;
+  opacity: 0.7;
+  background-color: orange;
+  margin-top: 635px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section__conteiner-animation {
+  text-transform: uppercase;
+  margin: 0 10px;
+  font-family: Jost;
+}
+.section__animation-icon {
+  width: 56px;
+  height: 56px;
+}
+.Mesenger {
+  background-color: #f4f0ec;
+  border-radius: 70px;
+  min-height: 675px;
+  padding-top: 103px;
+}
+.Mesenger__item {
+  width: 318px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 50px 20px;
+}
+.Mesenger__conteiner-item {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+.Mesenger__title {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 58px;
+  text-align: center;
+  letter-spacing: 0.22px;
+  color: #292f36;
+  width: 479px;
+  margin: auto;
+  margin-bottom: 45px;
+}
+.Mesenge__text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin: 25px 0 ;
+  width: 244px;
+}
+.Mesenger__info-pupils {
+  display: flex;
+}
+.Mesenger__title-info {
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  letter-spacing: 0.22px;
+  color: #292f36;
+  margin-left: 20px;
+}
+.Mesenger__subtitle-info {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0.22px;
+  color: #4d5053;
+  margin-left: 20px;
+}
+.conteiner-brands{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 186px;
+}
+@keyframes section-button {
+  0% {
+    transform: rotate(10deg);
+  }
+  50% {
+    transform: rotate(-10deg);
+  }
+  100% {
+    transform: rotate(10deg);
+  }
+}
+@media (max-width: 1100px) {
+  .section__conteiner-image {
+    display: none;
+  }
+  .section-item {
+    margin: auto;
+  }
+  .Mesenger__conteiner-item{
+    flex-direction: column;
+    margin: auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 970px) {
+  .fhooter {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 140px;
+  }
+}
+
+@media (max-width: 750px) {
+  .header__icon {
+    margin: auto;
+  }
+  .conteiner__menu-link {
+    margin: auto;
+  }
+  .section__title {
+    font-size: 50px;
+    line-height: normal;
+  }
+  .section__text {
+    width: initial;
+    font-size: 18px;
+  }
+  .conteiner-brands{
+    display: none;
+  }
+  .content {
+    background-position: center;
+  }
+}
+@media (max-width: 530px){
+  .Mesenger__title{
+    font-size: 30px;
+    width: 350px;
+  }
+}
+@media (max-width: 430px) {
+  .section__title {
+    font-size: 25px;
+  }
+  .section__text {
+    font-size: 16px;
+    line-height: normal;
+  }
+  .Mesenger__item{
+    max-width: 250px;
+    padding: 30px 15px;
+  }
+  .Mesenger__title{
+    line-height: normal;
+    width: 270px;
+  }
+}
+@media (max-width: 350px) {
+  .menu__link--noneudp {
+    display: none;
+  }
+}
+@media (max-width: 360px) {
+  .fhooter__text {
+    font-size: 18px;
+  }
+}
